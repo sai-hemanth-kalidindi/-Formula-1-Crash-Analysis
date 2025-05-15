@@ -59,20 +59,6 @@ Python (Jupyter Notebook)
 
 ---
 
-## 📊 Sample Code Snippet
-
-```python
-# Flagging fatal crashes
-df['fatal_crash'] = df['NUMBER OF PERSONS KILLED'] > 0
-
-# Grouping by borough to identify fatality hotspots
-borough_fatalities = df[df['fatal_crash']].groupby('BOROUGH').size().sort_values(ascending=False)
-
-# Visualizing the results
-borough_fatalities.plot(kind='bar', title='Fatal Crashes by Borough', color='crimson')
-```
-
----
 
 ## 📈 Key Insights
 
